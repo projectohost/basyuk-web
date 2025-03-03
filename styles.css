@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://www.travelandleisure.com/thmb/PhzIRcV7vPkZ_frvSkc4zv8yLpo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-exterior-cape-of-senses-CAPESENSES0824-c73d459ad1664b758d1d151ea1a2f6c6.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5533c;
+}
+
+section {
+    padding: 50px 20px;
+    /* text-align: center; */
+}
+
+#rooms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.room-card {
+    width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.room-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.room-card img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h4{
+    color: black;
+}
+
+#services ul, #contact, #booking{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services > *, #contact > *{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#booking button{
+    margin-left: 1.5rem;
+}
