@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Готель "Затишок"</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <!-- Навігація -->
+    <nav>
+        <div class="logo">
+            <h1>Готель "Затишок"</h1>
+        </div>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#rooms">Номери</a></li>
+            <li><a href="#services">Послуги</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <!-- Головна сторінка -->
+    <header class="hero">
+        <h2>Ласкаво просимо в готель "Затишок"</h2>
+        <p>Ваш ідеальний відпочинок починається тут!</p>
+        <button onclick="window.location.href='#booking'">Забронювати номер</button>
+    </header>
+
+    <!-- Про нас -->
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Готель "Затишок" — це місце, де поєднуються комфорт і елегантність. Ми пропонуємо вам найкращі умови для відпочинку в серці міста.</p>
+    </section>
+
+    <!-- Номери -->
+    <section id="rooms">
+        <h2>Наші номери</h2>
+        <div class="room-card">
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20210911/pngtree-photos-of-the-hotel-standard-room-in-the-afternoon-without-photographs-image_856485.jpg" alt="Стандартний номер">
+            <div class="room-text">
+                <h3>Стандартний номер</h3>
+                <p>екскурсія - спорт зал</p> 
+                <h4> 1299 грн </h4>
+                <button>Дізнатися більше</button>
+            </div>
+        </div>
+        <div class="room-card">
+            <img src="https://novate.ru/files/u31123/Fashion-Designer-Hotels-11.jpg" alt="Люкс">
+            <div class="room-text">
+                <h3>Люкс</h3>
+                <p>Вид на центр міста - сніданок включено - спа</p>
+                <h4> 1800 грн </h4>
+                <button>Дізнатися більше</button>
+            </div>
+        </div>
+        <!-- 3-я кімната  -->
+        <div class="room-card">
+            <img src="https://president-hotel.lutsk.ua/storage/web/source/landingpages/1/N7s6ssUPc2HGSn_WbJtROvBZUq-G1dBv.jpg" alt="Люкс">
+            <div class="room-text">
+                <h3>делюкс</h3>
+                <p>Вид на центр міста - сніданок обід вечеря включено - спа </p>
+                <h4> 2500 грн </h4>
+                <button>Дізнатися більше</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Послуги -->
+    <section id="services">
+    <h2>Наші послуги</h2>
+        <ul>
+            <li><i class="fas fa-wifi"></i> Безкоштовний Wi-Fi</li>
+            <li><i class="fas fa-swimmer"></i> Басейн та спа-зона</li>
+            <li><i class="fas fa-utensils"></i> Ресторан з різноманітним меню</li>
+        </ul>
+    </section>
+
+
+    <!-- Контакти -->
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Адреса: Вул. Гостинна, 12, Київ</p>
+        <p>Телефон: +380 502 270  778</p>
+    </section>
+
+    <!-- Бронювання -->
+    <!-- Бронювання -->
+    <section id="booking">
+        <h2>Бронювання</h2>
+        <form>
+            <label for="check-in">Дата заїзду</label>
+            <input type="date" id="check-in"><br>
+            <label for="check-out">Дата виїзду</label>
+            <input type="date" id="check-out"><br>
+            <button type="submit">Забронювати</button>
+        </form>
+    </section>
+
+
+    <!-- Підвал -->
+    <footer>
+        <p>&copy; 2025 Готель "Затишок". Усі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
